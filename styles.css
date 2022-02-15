@@ -1,0 +1,281 @@
+.container {
+  /* width: 1000px; */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* body {
+  margin:0;
+  padding:0;background-color: rgb(245, 245, 255);
+} */
+/* .section1 {
+  
+  
+
+.top-wrap {
+  
+  margin:0 auto;
+}
+.top-wrap .top_img{
+  width:100%;
+}
+.top-wrap .top_img img {
+  width:100%;
+  object-fit: cover;
+}
+.header {
+  
+}
+.header .logo {
+  width: 150px;
+}
+.header .logo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.section2 .tt {
+  font-size:18x;
+
+}
+.section2 .container {
+  background-color: #ffffff;
+  max-width: 1000px;
+}
+.section2 .news_items {
+  
+  width:100%;
+}
+.section2 .news_items .inner {
+  width:600px;
+  margin:0 auto;
+}
+.section2 .news_items ul {
+  list-style: decimal;
+  
+  
+}
+.section2 .news_items li {
+margin:8px;
+}
+.section2 .news_items .item {
+  
+}
+.section3 {
+  
+}
+.section3 .tt {
+  font-size:18x;
+
+}
+.section3 .detail_items{
+  
+  width:600px;
+  margin: 0 auto;
+}
+.section3 .detail_items .items {
+  display: flex;
+  margin: 0 auto;
+}
+.section3 .detail_items .items .box1 {
+  width:49%;
+  text-align: center;
+}
+.section3 .detail_items .items .box1 .img {
+  width:100%;
+  height:auto;
+  background-image: url(./img/IMG_3012.JPG);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section3 .detail_items .items .box1 .img::before{
+  content:"";
+  display: block;
+  padding-top:100%;
+}
+.section3 .detail_items .items .box2 {
+  padding:0 32px;
+  text-align: left;
+  /* width:49%; */
+/* } */
+/* .section3 .detail_items .items .box2 table {
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  margin:10px 0;
+  padding:12px 0;
+  font-size:14px;
+  
+}
+
+.section3 .detail_items .items .box2 table tr {
+  
+}
+.section3 .detail_items .items .box2 table th {
+  font-weight: lighter;
+  
+}
+.section3 .detail_items .items .box2 .tt2 {
+  font-size:20px;
+  
+}
+.section3 .detail_items .items .box2 .tw {
+  font-size:14px; */
+/* } */ 
+.header {
+  display: flex;
+}
+.logo {
+ width:200px;
+}
+.logo  img {
+  width:100%;
+}
+.main_img {
+  margin-bottom:50px;
+}
+.index {
+  max-width:800px;
+  margin:0 auto;
+}
+.box1 {
+  background-color: rgb(175, 170, 170);
+  padding:40px;
+  margin-bottom:50px;
+}
+.box1 .title {
+  font-size:20px;
+  text-align: center;
+}
+.box1 .inner {
+border:1px solid black;
+padding:20px 0;
+
+}
+.box1 .inner ol {
+  text-align: center;
+  
+}
+.box1 .inner li {
+  text-align: center;
+}
+
+.box2 .items{
+display:flex;
+flex-wrap: wrap;
+gap:10px;
+justify-content: space-between;
+margin-bottom:50px;
+}
+.box2 .items .item {
+  width:49%;
+}
+.box2 .items .item img {
+  width:100%;
+  object-fit: cover;
+}
+
+.box3 {
+  background-color: rgb(173, 173, 173);
+  padding:30px;
+  margin-bottom:30px;
+}
+.box3 .title {
+  text-align: center;
+  font-size:20px;
+}
+.box3 .mini_box{
+  display:flex;
+}
+.box3 .mini_box .m_box1 {
+  width:34%;
+  text-align: left;
+}
+.box3 .mini_box .m_box1 span {
+  display: block;
+  font-weight: bold;
+}
+.box3 .mini_box .m_box1 p {
+  font-weight: lighter;
+  margin:5px 0;
+}
+
+.box3 .mini_box .m_box2 {
+  width:66%;
+  border-left:1px solid black;
+  padding-left:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+  /* .container {
+    padding:10px;
+  }
+  .header .logo {
+    width:200px;
+  }
+  .section2 .tt {
+    font-size:16px;
+    margin:10px 0;
+  }
+  .top-wrap .top_img{
+    padding:40px 0;
+  }
+  .section2 .news_items .inner {
+    width:100%;
+  }
+  .section2 .news_items ul {
+    padding:0 20px;
+  }
+  .section2 .news_items li 
+  {
+    font-size:14px;
+}
+.section3 .tt {
+  font-size:16px;
+    margin:10px 0;
+}
+.section3 .detail_items {
+  width:100%;
+}
+.section3 .detail_items .items {
+  display:block;
+}
+.section3 .detail_items .items .box1{
+  width:100%;
+}
+.section3 .detail_items .items .box2 .tt2 {
+  padding-top:15px;
+  font-size:16px;
+}
+
+.section3 .detail_items .items .box2 {
+ 
+  padding:0;
+}
+.section3 .detail_items .items .box2 table{
+  display: block;
+}
+.section3 .detail_items .items .box2 table th {
+  padding-right:20px;
+} */
+
+
+}
