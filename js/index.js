@@ -4,3 +4,4 @@ $(function () {
     console.log("呼び出し");
   });
 });
+$(".slide-items").slick();
