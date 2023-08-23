@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/slick-theme.css" />
     <link rel="stylesheet" href="./css/index.css" />
-
+    <link rel="stylesheet" href="./css/modaal.min.css" />
     <title>Document</title>
   </head>
   <body>
@@ -96,9 +96,19 @@
       </p>
     </div>
 
-    <script src="./js/jquery-3.7.0.slim.min.js"></script>
+    <!--シンプルモーダル-->
+    <a href="#inline" class="inline">ボタン</a>
+    <div id="inline">テキストが入ります。</div>
+
+    <script src="./js/jquery-3.7.0.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/modaal.min.js"></script>
     <script src="./js/index.js"></script>
+    <script>
+      $(".inline").modaal({
+        content_source: "#inline",
+      });
+    </script>
   </body>
 </html>

@@ -65,3 +65,7 @@ body {
 .thumb .slick-slide:hover {
   opacity: 0.7;
 }
+
+#inline {
+  display: none;
+}
