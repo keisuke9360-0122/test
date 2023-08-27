@@ -20,4 +20,14 @@ $(function () {
     slidesToShow: 4,
     slidesToScroll: 1,
   });
+  $("button").click(() => {
+    $(".text").toggleClass("big");
+  });
+
+  $(".aco_box .aco_title").click(function () {
+    $(this).next(".inner").slideToggle();
+    // $(this).toggleClass("open");
+    $(".aco_box .aco_title").not($(this)).next(".inner").slideUp();
+    $(".aco_box .aco_title").not($(this)).removeClass("open");
+  });
 });

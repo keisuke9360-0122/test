@@ -16,16 +16,24 @@
       <li><img src="./img/IMG_8771.JPG" alt="" /></li>
       <li><img src="./img/IMG_8773.JPG" alt="" /></li>
     </ul> -->
-
+    <div class="text">ああああ</div>
     <!-- slick -->
     <div class="section">
       <div class="sliderArea">
         <div class="slider_thumb slider">
           <div>
-            <img
-              src="https://125naroom.com/demo/img/itukanokotonokoto01.jpg"
-              alt="125naroom"
-            />
+            <a href="#inline" class="inline">
+              <img
+                src="https://125naroom.com/demo/img/itukanokotonokoto01.jpg"
+                alt="125naroom"
+              />
+            </a>
+            <div id="inline">
+              <img
+                src="https://125naroom.com/demo/img/itukanokotonokoto01.jpg"
+                alt="125naroom"
+              />
+            </div>
           </div>
           <div>
             <img
@@ -97,8 +105,26 @@
     </div>
 
     <!--シンプルモーダル-->
-    <a href="#inline" class="inline">ボタン</a>
-    <div id="inline">テキストが入ります。</div>
+    <a href="#inline2" class="inline2">ボタン</a>
+    <div id="inline2">テキストが入ります。</div>
+
+    <!-- アコーディオン -->
+    <div class="aco_wrap">
+      <div class="container">
+        <div class="aco_box">
+          <div class="aco_title">タイトル</div>
+          <div class="inner">
+            <p class="aco_txt">やった</p>
+          </div>
+        </div>
+        <div class="aco_box">
+          <div class="aco_title">タイトル</div>
+          <div class="inner">
+            <p class="aco_txt">やった2</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="./js/jquery-3.7.0.min.js"></script>
     <script src="./js/slick.min.js"></script>
@@ -108,6 +134,9 @@
     <script>
       $(".inline").modaal({
         content_source: "#inline",
+      });
+      $(".inline2").modaal({
+        content_source: "#inline2",
       });
     </script>
   </body>

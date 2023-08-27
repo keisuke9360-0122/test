@@ -69,3 +69,19 @@ body {
 #inline {
   display: none;
 }
+#inline2 {
+  display: none;
+}
+.modaal-content-container img {
+  width: 100%;
+}
+.text.big {
+  font-size: 50px;
+}
+.aco_title {
+  background-color: red;
+  color: #fff;
+}
+.aco_box .inner {
+  display: none;
+}
